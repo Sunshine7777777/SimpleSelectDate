@@ -21,7 +21,7 @@
     CGFloat w =  [UIScreen mainScreen].bounds.size.width;
   //  CGFloat h =  [UIScreen mainScreen].bounds.size.height;
     UIButton *button = [UIButton buttonWithType:0];
-    [button setTitle:@"选择时间" forState:0];
+    [button setTitle:@"Choose Date" forState:0];
     [button setTitleColor:[UIColor blackColor] forState:0];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(showPickView) forControlEvents:7];
@@ -47,7 +47,7 @@
     };
     [self.view addSubview:dateView];
     dateView.layer.borderWidth = 1;
-    dateView.layer.borderColor = [UIColor blackColor].CGColor;
+    dateView.layer.borderColor = [UIColor grayColor].CGColor;
     dateView.layer.cornerRadius = 6;
     _pickDateView = dateView;
     [_pickDateView setHidden:YES];
