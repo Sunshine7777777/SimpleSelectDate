@@ -10,6 +10,5 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "suntailang" => "2292737166@qq.com" }
   spec.source       = { :git => "https://github.com/Sunshine7777777/SimpleSelectDate.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  =  "PickDateView/**/*.{h,m}"
 end
